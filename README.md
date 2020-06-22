@@ -2,9 +2,9 @@
 
 ## Preprocessing Data
 
-- Initially, as part of features selection, koi_fpflag fields and err1 fields was not included. but removing these features ecreased the accuracy dramatically, hence these were considered for the selected features in the model.
+- Initially, as part of features selection, koi_fpflag fields and err1 fields was not included. However, the finding was that removing these features decreased the accuracy dramatically, hence these were finally considered for the model.
 
-- Also, for the SVM model,training and testing scores were around 0.85, while using MinMaxScaler. Changing to StandardScaler was a better idea , that moved the sore up to 0.89
+- Also, for the SVM model,training and testing scores were around 0.85, while using MinMaxScaler. Changing to StandardScaler was a better idea , that moved the score up to 0.89
 
 ## Findings
 
